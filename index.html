@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Kwik-e-Weather</title>
+</head>
+<body>
+    <!-- top header -->
+    <header class="header"> <h1>Kwik-e-Weather</h1> </header>
+    
+    <!-- search area -->
+    <div class="row1">   
+        <div class="search">
+            <label for="userInput">Enter city name:</label>
+            <input type="text" placeholder="type here" id="userInput"><br>
+            <button id="locationSearchBtn">Search</button>
+            <!-- generated saved location buttons -->
+            <div class="saved" id="locationSaved"></div>
+        </div>    
+        <!-- top index -->
+        <div>
+            <div class="topcard">
+                <h2 class="day"></h3>
+                <h3 class="temperature"></h4>
+                <h3 class="wind"></h4>
+                <h3 class="humidity"></h4>
+                <h3 class="uv"></h4>
+            </div>
+            <!-- bottom 5 indexes -->
+            <div class="week"></div>
+        </div>
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
