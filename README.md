@@ -1,5 +1,5 @@
 # Kwik-e-Weather
-
+https://salvadorbanuelos424.github.io/Kwik-e-Weather/
 
 ![A note app that saves to local server](./assets/images/weather.jpg)
 
@@ -26,6 +26,7 @@ Open to all contributions
 Feel free to reach out GitHub or email if you have any questions
 
 ## GitHub URL
+https://github.com/SalvadorBanuelos424/Kwik-e-Weather
 
 ## Email
 * SBanuelos1234@gmail.com
